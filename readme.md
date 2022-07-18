@@ -9,5 +9,8 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
 ## First setup
-
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+ - Install [Docker](https://docs.docker.com/get-docker/)
+ - Clone this repo and `cd` into it
+ - Run `docker-compose up` to start the dev environment
+ - Check if everything is working by navigating here http://localhost:3000/api/ping
+ - Register new account at http://localhost:3001/register
